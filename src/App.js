@@ -1,9 +1,7 @@
-import React from 'react';
-import { useEffect,useState } from 'react';
+import logo from './logo.svg';
 import './App.css';
-import SearchIcon from './search.svg';
-import MovieCard from './MovieCard';
 
+<<<<<<< HEAD
 const API_Url ='http://www.omdbapi.com?apikey=801338cb'
 
 const App = () => {
@@ -52,18 +50,27 @@ const App = () => {
             }
        </div>
     );
+=======
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+>>>>>>> parent of fb31f66 (First-app-react)
 }
-export default App;
 
-{/* <div className='movie'>
-                    <div>
-                        <p>{movie1.Year}</p>
-                    </div>
-                    <div>
-                        <img src={movie1.Poster !='N/A' ? movie1.Poster :'https://via.placeholder.com/400'} alt={movie1.Title}/>
-                    </div>
-                    <div>
-                        <span>{movie1.Type}</span>
-                        <h1>{movie1.Title}</h1>
-                    </div>
-                </div>  */}
+export default App;

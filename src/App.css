@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
@@ -6,25 +7,35 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+=======
+.App {
+  text-align: center;
+>>>>>>> parent of fb31f66 (First-app-react)
 }
 
-:root {
-  --font-roboto: "Roboto Slab", serif;
-  --font-raleway: "Raleway", sans-serif;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
+<<<<<<< HEAD
 body {
   font-family: var(--font-roboto);
   background-color: #fff5ba;
+=======
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+>>>>>>> parent of fb31f66 (First-app-react)
 }
 
-.app {
-  padding: 4rem;
-
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
 }
 
 h1 {
@@ -58,21 +69,19 @@ h1 {
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #d5e2e2, -5px -5px 7px #d0e1ec;
   box-shadow: 5px 5px 7px #52555c, -5px -5px 7px #222527;
+=======
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+>>>>>>> parent of fb31f66 (First-app-react)
 }
 
-.search input {
-  flex: 1;
-  border: none;
-  font-size: 1.5rem;
-  font-family: var(--font-raleway);
-  font-weight: 500;
-  padding-right: 1rem;
-
-  outline: none;
-  color: #a1a1a1;
-  background: #1f2123;
+.App-link {
+  color: #61dafb;
 }
 
+<<<<<<< HEAD
 .search img {
   width: 35px;
   height: 35px;
@@ -202,38 +211,13 @@ h1 {
 @media screen and (max-width: 600px) {
   .app {
     padding: 4rem 2rem;
+=======
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+>>>>>>> parent of fb31f66 (First-app-react)
   }
-
-  .search {
-    padding: 1rem 1.75rem;
-    width: 100%;
-  }
-
-  .search input {
-    font-size: 1rem;
-  }
-
-  .search img {
-    width: 20px;
-    height: 20px;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .app {
-    padding: 4rem 1rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .container {
-    margin-top: 2rem;
-  }
-
-  .movie {
-    width: "100%";
-    margin: 1rem;
+  to {
+    transform: rotate(360deg);
   }
 }
