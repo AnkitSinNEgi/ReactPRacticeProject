@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 
-
 * {
   margin: 0;
   border: 0;
@@ -22,12 +21,6 @@
 body {
   font-family: var(--font-roboto);
   background-color: #fff5ba;
-=======
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
->>>>>>> parent of fb31f66 (First-app-react)
 }
 
 .App-header {
@@ -50,10 +43,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   width: fit-content;
-
-  position: absolute;
-  left: 40%;
-  top: 10px;
 }
 
 .search {
@@ -65,16 +54,10 @@ h1 {
   justify-content: center;
 
   padding: 1.5rem 1.75rem;
-  border-radius: 3 rem;
+  border-radius: 3rem;
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #d5e2e2, -5px -5px 7px #d0e1ec;
   box-shadow: 5px 5px 7px #52555c, -5px -5px 7px #222527;
-=======
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
->>>>>>> parent of fb31f66 (First-app-react)
 }
 
 .App-link {
@@ -88,8 +71,7 @@ h1 {
   cursor: pointer;
 }
 
-/*
- .search button {
+/* .search button {
   padding: 20px 40px;
   border-radius: 0.5rem;
   margin-left: 15px;
@@ -103,8 +85,8 @@ h1 {
   background: #1f2123;
   -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
   box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-} 
-*/
+} */
+
 .empty {
   width: 100%;
   margin-top: 3rem;
@@ -132,8 +114,8 @@ h1 {
 }
 
 .movie {
-  width: 250px;
-  height: 360px;
+  width: 310px;
+  height: 460px;
   margin: 1.5rem;
 
   position: relative;
@@ -183,7 +165,7 @@ h1 {
 .movie div:nth-of-type(3) span {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 2px;
   font-weight: 500;
   color: #f0f0f0;
@@ -197,7 +179,7 @@ h1 {
 
 .movie:hover div:nth-of-type(2) {
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 .movie:hover div:nth-of-type(3) {
